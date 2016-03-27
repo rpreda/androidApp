@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#000a1a"
+    tools:context="net.deployme.hello.musicinfo.Second">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView2"
+        android:src="@drawable/piano"
+        android:layout_marginBottom="454dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText"
+        android:text="Pianul (prescurtarea comună a cuvântului de origine italiană pianoforte) este un instrument muzical foarte răspândit, în care sunetul este produs de corzi metalice fixate pe o placă de rezonanță din lemn, lovite de ciocănele acoperite cu pâslă, prin intermediul unei claviaturi. Pianele moderne au corzile montate într-un cadru metalic, de obicei turnat din fontă și finisat cu lac și pulbere de bronz (motiv pentru care este numit, impropriu, și „placă de bronz”)."
+        android:textSize="22dp"
+        android:textColor="#FFFFFF"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:id="@+id/button2"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:onClick="nextAct" />
+</RelativeLayout>
